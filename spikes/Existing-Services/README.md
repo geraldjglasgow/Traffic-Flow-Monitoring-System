@@ -5,6 +5,7 @@ and more will be put into each device for measuring traffic flow and density.
 
 Here are links to their websites:
 > Aciclica: https://www.acyclica.com
+
 > Librium: http://www.libelium.com/vehicle_traffic_monitoring_bluetooth_sensors_over_zigbee/
 
 The devices from both these companies range from $2,000 to $3,000 for use over a month. In addition, smaller individual 
