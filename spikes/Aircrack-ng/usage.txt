@@ -1,1 +1,0 @@
-Aircrack suite was the first choice for creating a monitor mode interface for the wireless card. Sudo apt-get install aircrack-ng. This contains the command airmon-ng <interface> mode <monitor/managed/master>. 
