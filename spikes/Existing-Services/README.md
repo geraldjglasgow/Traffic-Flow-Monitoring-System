@@ -1,7 +1,8 @@
 Aciclica and Librium are both large companies that provide the same service this project is being designed for,
 but there is a huge cost associated with these companies devices and many more features that might not be fully 
 necessary for what some clients need. WiFi signal, bluetooth signal, GSM cellular signal, camera's, noise detectors, 
-and more will be put into each device for measuring traffic flow and density.
+and more will be put into each device for measuring traffic flow and density. There are many more companies that deal with
+traffic monitoring, but these are some of the biggest.
 
 Here are links to their websites:
 > Aciclica: https://www.acyclica.com
