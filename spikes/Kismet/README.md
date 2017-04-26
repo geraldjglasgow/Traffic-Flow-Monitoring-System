@@ -4,8 +4,8 @@ The setup for kismet involves either downloading or compiling the program and co
 
 Here is the commands to install the latest version on linux:
 
-> sudo apt-get update 
-> sudo apt-get install kismet
+> sudo apt-get update</n>
+> sudo apt-get install kismet</n>
 
 There is a .conf file in /usr/local/etc called kismet.conf. You will need to edit this for the program to work.
 Inside kismet.conf, #ncsource=wlan0 will need to be uncommented as this specifies the wireless interface being used.
