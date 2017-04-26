@@ -13,3 +13,7 @@ The path to save output will need to be redifined if desired. This is visible wh
 logprefix=/usr/local/etc
 
 Once the wireless card is in monitor mode and the .conf file has the interface specified one can run kismet by typing “kismet” in terminal. It’s not recommended to run kismet as sudo, and there is very good documentation to show to to run kismet properly as a user. Once running in the defined path for output will hold the output files for kismet.
+
+Once kismet has successfully run, there will be files saved in the specified path above. The file extension .nettxt
+will just display the known access points around and the clients connected to them. If one wishes to get specific information
+out of the scan you will have to use wireshark with the .pcapdump file.
