@@ -11,5 +11,5 @@ traffic using WiFi probe requests.
   > sudo apt-get install git
   
   - go to or create the directory you want to code to go into and use this command
-  > git clone https://github.com/geraldjglasgow/Traffic-monitoring-with-WiFi-data/
+  > git clone git@github.com:geraldjglasgow/Traffic-monitoring-with-WiFi-data.git
 
