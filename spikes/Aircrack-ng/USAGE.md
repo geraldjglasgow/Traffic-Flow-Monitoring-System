@@ -21,6 +21,6 @@ Next well setup a monitor mode interface with this command
 
 > sudo airmon-ng [start|stop|check] [interface]
 
-
-<h1> this is h1 </h1>
-this is normal
+If the wireless card can be put into monitor mode then it should display
+a device named mon1 when >iwconfig is ran again. If not the wireless card
+is not compatable with aircrack-ng.
