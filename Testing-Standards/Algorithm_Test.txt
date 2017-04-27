@@ -5,3 +5,5 @@ Some of the criteria for this test include:
 	- Take into account that more that one phone or WiFi integrated device could be inside the moving car.
 
 Other criteria will be added as the algorithm is designed and coded.
+
+In addition, Unit testing will be implemented. Aftificial data will be created where the number of cars passing by, the speed, the number of cars detected are all known. The program will have to be run with this data and give output similar to what was expected.
