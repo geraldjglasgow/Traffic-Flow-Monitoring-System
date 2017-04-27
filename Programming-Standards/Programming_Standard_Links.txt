@@ -1,0 +1,28 @@
+Python Programming Standards
+
+PEP 8 -- Style Guide for Python Code
+This document gives coding conventions for the Python code comprising the standard library in the main Python distribution. Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python [1] .
+This document and PEP 257 (Docstring Conventions) were adapted from Guido's original Python Style Guide essay, with some additions from Barry's style guide [2] .
+This style guide evolves over time as additional conventions are identified and past conventions are rendered obsolete by changes in the language itself.
+Many projects have their own coding style guidelines. In the event of any conflicts, such project-specific guides take precedence for that project.
+Link: https://www.python.org/dev/peps/pep-0008/#introduction
+
+Code Like a Pythonista: Idiomatic Python
+In this interactive tutorial, we'll cover many essential Python idioms and techniques in depth.
+Link: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+
+Shell Scripts
+
+Writing Shell Scripts
+This Writing Shell Scripts article provides a clear understanding of what standards need to be used when writing a shell script.
+Link: http://linuxcommand.org/lc3_writing_shell_scripts.php
+
+Bash Style Guide and Coding Standard
+The specifications
+dealt with here serve primarily for generating easily understandable and thus maintainable code.
+Link: https://lug.fh-swf.de/vim/vim-bash/StyleGuideShell.en.pdf
+
+Probe Requests
+
+Documentation on probe requests from IEEE standards.
+Link: https://en.wikipedia.org/wiki/IEEE_802.11
