@@ -1,10 +1,15 @@
+
+Data will be gathered through probe detection, and at the same time, cars seen will be recorded via a simple program. 
+These tests will help determine accuracy of the cars detected through probe requests. 
+
 Information that should be documented when testing the device near roads include:
 
 - Name of teammember implementing the test
 - Location of where the test is being completed
 - Type of road
-- Time of test 
+- Date and time of test 
 - Length of test 
 - Actual cars seen
 - Cars detected
+- Any other comments that are relevant to analyze information
 
