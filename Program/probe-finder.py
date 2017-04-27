@@ -9,36 +9,35 @@ from pprint import pprint
 from logging.handlers import RotatingFileHandler
 
 
-NAME = 'probemon'
+NAME = 'probe-finder'
 DESCRIPTION = "a command line tool for logging 802.11 probe request frames"
 
 DEBUG = False
 
 def build_packet_callback(time_fmt, logger, delimiter, mac_info, ssid, rssi):
 	def packet_callback(packet):
-		
+		# only 802.11 packets are let through here
 		if not packet.haslayer(Dot11):
 			return
 
-		# we are looking for management frames with a probe subtype
-		# if neither match we are done here
+		# only logging probe requests
 		if packet.type != 0 or packet.subtype != 0x04:
 			return
 
-		# list of output fields
+		# data stored here
 		fields = []
 
-		# determine preferred time format 
+		# logging time 
 		log_time = str(int(time.time()))
 		if time_fmt == 'iso':
 			log_time = datetime.datetime.now().isoformat()
 
 		fields.append(log_time)
 
-		# append the mac address itself
+		# adding MAC address
 		fields.append(packet.addr2)
 
-		# parse mac address and look up the organization from the vendor octets
+		# Looks up vender for mac address
 		if mac_info:
 			try:
 				parsed_mac = netaddr.EUI(packet.addr2)
@@ -46,7 +45,7 @@ def build_packet_callback(time_fmt, logger, delimiter, mac_info, ssid, rssi):
 			except netaddr.core.NotRegisteredError, e:
 				fields.append('UNKNOWN')
 
-		# include the SSID in the probe frame
+		# adds SSID and RSSI if specified
 		if ssid:
 			fields.append(packet.info)
 			
@@ -74,7 +73,7 @@ def main():
 	args = parser.parse_args()
 
 	if not args.interface:
-		print "error: capture interface not given, try --help"
+		print "error: proper capture interface not given"
 		sys.exit(-1)
 	
 	DEBUG = args.debug
