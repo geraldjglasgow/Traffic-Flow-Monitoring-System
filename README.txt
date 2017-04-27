@@ -13,3 +13,13 @@ traffic using WiFi probe requests.
   - go to or create the directory you want to code to go into and use this command
   > git clone git@github.com:geraldjglasgow/Traffic-monitoring-with-WiFi-data.git
 
+2. install the required libraries
+
+ > sudo apt-get install python-pip
+ > sudo pip install netaddr
+ > sudo apt-get install python-scapy
+ > sudo apt-get install tcpdumb
+ 
+3. to auto run the program on startup 
+  > sudo nano /etc/rc.local
+  
