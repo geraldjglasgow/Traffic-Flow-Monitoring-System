@@ -1,0 +1,7 @@
+Git - The Simple Guide
+This guide provides easy to follow examples of procedures to be followed using GitHub repositories.
+Link: http://rogerdudler.github.io/git-guide/
+
+Getting your project on GitHub
+This guide show how to use GitHub's desktop version.
+Link: https://guides.github.com/introduction/getting-your-project-on-github/#pushit
