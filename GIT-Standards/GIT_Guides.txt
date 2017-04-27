@@ -1,4 +1,4 @@
-git - the simple guide
+Git - The Simple Guide
 This guide provides easy to follow examples of procedures to be followed using GitHub repositories.
 Link: http://rogerdudler.github.io/git-guide/
 
