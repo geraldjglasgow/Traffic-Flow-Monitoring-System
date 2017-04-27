@@ -1,0 +1,7 @@
+An algorithm to analyze and omit irrelevant data to the project will be coded, when this is done,  it will need to pass a test before it can be pushed to the repo.
+Some of the criteria for this test include: 
+	- Making sure static MAC addresses (from nearby buildings or houses) are taken out of the data
+	- Making sure only one record of each MAC address is kept, as phones tend to send multiple requests in a short period of time. 
+	- Take into account that more that one phone or WiFi integrated device could be inside the moving car.
+
+Other criteria will be added as the algorithm is designed and coded.
