@@ -1,10 +1,10 @@
 Information that should be documented when testing the device near roads include:
 
--Name of teammember implementing the test
--Location of where the test is being completed
--Type of road
--Time of test 
--Length of test 
--Actual cars seen
--Cars detected
+- Name of teammember implementing the test
+- Location of where the test is being completed
+- Type of road
+- Time of test 
+- Length of test 
+- Actual cars seen
+- Cars detected
 
