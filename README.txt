@@ -21,6 +21,7 @@ traffic using WiFi probe requests.
  > sudo apt-get install tcpdumb
  
 3. move the script.sh file to a secure directory to be run on startup
+  - Change the path in the script.sh file to match where the program is located.
 
 4. to auto run the program on startup 
   > sudo nano /etc/rc.local
