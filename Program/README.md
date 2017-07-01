@@ -1,1 +1,1 @@
-Here is the python script for logging Wireless probe requests.
+Here are the files required to start logging probe requests.
