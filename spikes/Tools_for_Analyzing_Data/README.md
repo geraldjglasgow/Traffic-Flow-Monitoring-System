@@ -7,3 +7,11 @@ Below are a few sources on similar projects:
 > http://ieeexplore.ieee.org/document/7795611/metrics</br >
 
 > https://www.infona.pl/resource/bwmeta1.element.ieee-art-000007297578/tab/summary</br >
+
+> http://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1024&context=jtrpaffdocs</br >
+
+> https://julkaisut.liikennevirasto.fi/pdf3/lts_2012-48_bluetooth_based_web.pdf</br >
+
+> https://ops.fhwa.dot.gov/publications/fhwahop15038/app_a.htm </br >
+
+> http://vbn.aau.dk/files/77968984/Final_Accuracy_of_Travel_Time_Estimation_using_Bluetooth_Technology_Case_Study_Limfjord_Tunnel_Aalborg_B_NamakiAraghi_1_.pdf </br >
