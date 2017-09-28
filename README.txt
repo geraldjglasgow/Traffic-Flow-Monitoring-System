@@ -18,7 +18,7 @@ traffic using WiFi probe requests.
  > sudo apt-get install python-pip
  > sudo pip install netaddr
  > sudo apt-get install python-scapy
- > sudo apt-get install tcpdumb
+ > sudo apt-get install tcpdump
  
 3. move the script.sh file to a secure directory to be run on startup
   - Change the path in the script.sh file to match where the program is located.
@@ -27,4 +27,3 @@ traffic using WiFi probe requests.
   > sudo nano /etc/rc.local
   > add the path to the start_probemon.sh file
   
-5. Once the Pi is rebooted it will go through the script's commands and begin running probemon in the background
