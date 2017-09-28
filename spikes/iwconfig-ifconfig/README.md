@@ -13,6 +13,6 @@ Command used to bring up a WiFi interface:
 
 > sudo ifconfig wlan0 up
 
-Command used to set WiFi interface to monitor mode:
+Command used to set WiFi interface to monitor mode or ad-hoc:
 
-> sudo iwconfig wlan1 mode Monitor
+> sudo iwconfig wlan1 mode <Monitor> | <ad-hoc>
