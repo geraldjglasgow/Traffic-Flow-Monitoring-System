@@ -1,0 +1,1 @@
+This spikes has some essentials for first time pi setup
