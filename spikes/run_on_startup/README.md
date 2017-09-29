@@ -1,24 +1,20 @@
-This is a spike on how to auto run programs on the raspberry pi
+This is a spike on how to have program run on RPi startup
 
 Here is a good like for starters:
 https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
 
-For this project specifically we need to automate the wireless card interfacing to monitor mode.
-This is only possible through running a bash script (seen in programs) to delay the script till startup, 
-run commands to put the card in monitor mode, then start the program.
+This command brings up a file, where any command you put above the 'exit 0' at the bottom of the file 
+will be run while the RPi is starting up
+> sudo nano /etc/rc.local
 
-below are commands for putting card in monitor mode:
+Below are some useful commands to use while setting up the pi for the first time
 
-	> sudo ifconfig wlan0 down
-	> sudo iwconfig wlan0 mode Monitor
-	> sudo ifconfig wlan0 up
+* change default time:
+> sudo dpkg-reconfigure tzdata
+* to change RPi to 12 hour clock, right click the clock and go to change digital clock settings, and change the %R to %r
+* to change default keyboard:
+> sudo vim /etc/default/keyboard
 
-Once this is finished you must cd to the directory that contains probemon.py file
+change XKBLAYOUT="gb" to XKBLAYOUT="us" (for USA standard keyboard)
 
- > cd /home/pi/path to probemon.py file
 
-Once at the right directory its time to run the program:
-
-	> sudo python probemon.py -i wlan0 -r -t unix
-
-You can choose the flags you wish for running the program.

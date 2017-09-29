@@ -1,0 +1,1 @@
+There are several different types of WiFi antennas
