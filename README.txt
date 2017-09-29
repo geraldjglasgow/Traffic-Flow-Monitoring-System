@@ -20,10 +20,14 @@ traffic using WiFi probe requests.
  > sudo apt-get install python-scapy
  > sudo apt-get install tcpdump
  
-3. move the script.sh file to a secure directory to be run on startup
-  - Change the path in the script.sh file to match where the program is located.
 
-4. to auto run the program on startup 
+3. to auto run the program on startup 
   > sudo nano /etc/rc.local
-  > add the path to the start_probemon.sh file
+  > add this path to the line above 'exit 0'
+  > /home/pi/Project/Startup/script.sh &
+  
+4. Lastly, make sure I2C and SSH is enabled
+  > In terminal type in: 
+  > sudo raspi-config
+  > go to option 5 and enabled the I2C and SSH
   
