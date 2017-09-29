@@ -21,12 +21,12 @@ default-lease-time 600;<br />
 max-lease-time 7200;<br />
  
 option subnet-mask 255.255.255.0;<br />
-option broadcast-address 12.12.12.255;<br />
+option broadcast-address 10.0.0.255;<br />
 option domain-name "RPi-network";<br />
-option routers 12.12.12.1; #default gateway<br />
+option routers 10.0.0.1; #default gateway<br />
  
-subnet 12.12.12.0 netmask 255.255.255.0 { <br />
-    range 12.12.12.2 12.12.12.20; <br />
+subnet 10.0.0.0 netmask 255.255.255.0 { <br />
+    range 10.0.0.2 10.0.0.10; <br />
 }
 
 
