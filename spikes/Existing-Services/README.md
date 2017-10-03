@@ -9,7 +9,7 @@ Here are links to their websites:
 
 > Librium: http://www.libelium.com/vehicle_traffic_monitoring_bluetooth_sensors_over_zigbee/
 
-The devices from both these companies range from $2,000 to $3,000 for use over a month. In addition, smaller individual 
+The devices from both these companies range from $3,000 to $4,500 for use over a month. In addition, smaller individual 
 projects that focus on one or two of these methods are very common and well tested. Some of the most researched are 
 WiFi and bluetooth. Larger projects that involve machine learning use microphones or cameras to capture noise and analyze
 how many cars are passing.
