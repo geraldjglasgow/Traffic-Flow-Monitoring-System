@@ -91,14 +91,13 @@ class MyFirstGUI:
     def process(self):
         file = open(self.path+"output.log", "r")
         y = file.readlines()
-        mac_list = [i.split(',')[1] for i in y]
+        mac_list = [i.split(',')[0] for i in y]
         projection = set(mac_list)
-        print(len(projection))
         file.close()
         file = open(self.path+"filter1.txt", "w")
         for element in projection:
-            if element[0]+element[1]+element[2]+element[3]+element[4]+element[5]+element[6]+element[7] != "":
-                file.write("%s\n" % element.upper())
+            # if element[0]+element[1]+element[2]+element[3]+element[4]+element[5]+element[6]+element[7] != "":
+            file.write("%s\n" % element.upper())
         file.close()
 
     def vendor(self):
@@ -136,7 +135,6 @@ class MyFirstGUI:
         print(i)
 
     def check_directory(self):
-
         self.filename = filedialog.askdirectory()
         self.path = self.filename
         print(self.path)
