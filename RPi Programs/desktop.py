@@ -41,7 +41,8 @@ class MyFirstGUI:
         self.master = master
         master.minsize(width=600, height=400)
         master.title("Traffic Pi Data Analysis")
-        self.path = "/Users/SSLGhost/Desktop/Test5/athome/"
+        self.path = "/Users/SSLGhost/Desktop/Test6/athome/"
+        #self.path = "/Users/SSLGhost/Desktop/Test6/speedway/"
         self.user = "pi@"
         self.ip = "10.0.0.200"
 
@@ -89,12 +90,12 @@ class MyFirstGUI:
         conn.send_command("rm " + temp)
 
     def process(self):
-        file = open(self.path+"output.log", "r")
+        file = open(self.path + "output.log", "r")
         y = file.readlines()
-        mac_list = [i.split(',')[0] for i in y]
+        mac_list = [i.split(',')[1] for i in y]
         projection = set(mac_list)
         file.close()
-        file = open(self.path+"filter1.txt", "w")
+        file = open(self.path + "filter1.txt", "w")
         for element in projection:
             # if element[0]+element[1]+element[2]+element[3]+element[4]+element[5]+element[6]+element[7] != "":
             file.write("%s\n" % element.upper())
@@ -118,10 +119,10 @@ class MyFirstGUI:
         print(i)
 
     def match(self):
-        file = open("/Users/SSLGhost/Desktop/athome/"+"filter1.txt", "r")
+        file = open("/Users/SSLGhost/Desktop/Test6/athome/"+"filter1.txt", "r")
         file1 = file.readlines()
         file.close()
-        file = open("/Users/SSLGhost/Desktop/speedway/"+"filter1.txt", "r")
+        file = open("/Users/SSLGhost/Desktop/Test6/speedway/"+"filter1.txt", "r")
         file2 = file.readlines()
         file.close()
         file3 = open("/Users/SSLGhost/Desktop/match.txt", "w")
