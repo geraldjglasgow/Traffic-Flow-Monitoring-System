@@ -1,6 +1,6 @@
-Windows/Linux use CTRL + SHIFT + ALT
-MAC use ⌘ + ;
+Windows/Linux use CTRL + SHIFT + ALT</br>
+MAC use ⌘ + ;</br>
 
-Select the Modules tab
-Go to dependencies
-'+' → JARs or directories and find the .Jar file or directory
+Select the Modules tab</br>
+Go to dependencies</br>
+'+' → JARs or directories and find the .Jar file or directory</br>
