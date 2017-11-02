@@ -19,6 +19,7 @@ traffic using WiFi probe requests.
  > sudo pip install netaddr
  > sudo apt-get install python-scapy
  > sudo apt-get install tcpdump
+ > sudo apt-get install trash-cli
  
 
 3. to auto run the program on startup 
