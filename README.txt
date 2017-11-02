@@ -9,6 +9,8 @@ Hardware requirements:
 - 3.7V LiPo battery
 - Powerbank that supports 5V 1A output
 - Direction Antenna
+- DS3231 RTC
+- Weather-proof case to hold all parts
 
 
 Below is all the steps required to setup this project to monitor vehical
