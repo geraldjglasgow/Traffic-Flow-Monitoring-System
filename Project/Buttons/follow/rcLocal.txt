@@ -1,0 +1,5 @@
+cd /home/pi/Project/Buttons
+sudo python3 /home/pi/Project/Buttons/shutdown.py &
+sudo python3 /home/pi/Project/Buttons/start.py &
+sudo python3 /home/pi/Project/Buttons/adhoc.py &
+sudo python3 /home/pi/Project/Time/timesync.py &

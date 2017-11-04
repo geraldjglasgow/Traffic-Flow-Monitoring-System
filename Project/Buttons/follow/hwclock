@@ -1,0 +1,26 @@
+FORCE NTP SYNC
+sudo apt-get install ntpdate
+sudo /etc/init.d/ntp stop
+sudo ntpd -q -g
+sudo /etc/init.d/ntp start
+
+
+HWCLOCK SETUP
+
+sudo nano /etc/modules
+rtc-sd3231
+
+sudo nano /boot/config.txt
+dtoverlay=i2c-rtc,ds3231
+
+sudo apt-get -y remove fake-hwclock
+sudo update-rc.d -f fake-hwclock remove
+
+sudo nano /lib/udev/hwclock-set
+comment out first if fi
+
+REBOOT THE PI
+
+sudo hwclock -r // read current hwclock time
+sudo hwclock -w // write current system time to hwclock
+sudo hwclock -s // set system time from hwclock
