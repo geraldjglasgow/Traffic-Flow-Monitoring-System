@@ -9,9 +9,9 @@ This will also require the computer has a manual ip address set to talk with the
 below is the command to set an ip and netmask
 
 To check the current IP use:
-> sudo ipconfig getifaddr <interface>
-
-
-> sudo ifconfig <interface> 192.168.1.2 netmask 255.255.255.0
+> sudo ifconfig <interface> down
+> sudo iwconfig <interface> mode ad-hoc
+> sudo ifconfig <interface> 10.0.0.200 netmask 255.255.255.0
+> sudo ifconfig <interface> up
 
 The interface for integrated wireless cards will be en0 for mac and wlan0 for linux.
