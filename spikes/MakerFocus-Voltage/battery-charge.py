@@ -1,5 +1,5 @@
 import struct
-import smbus
+import smbus2
 import sys
 
 state_charge = (3.622, 3.832, 4.043, 4.182, 4.21)
@@ -28,7 +28,7 @@ def readCapacity(bus):
 	return capacity
 
 
-bus = smbus.SMBus(1)  # 0 = /dev/i2c-0 (port I2C0), 1 = /dev/i2c-1 (port I2C1)
+bus = smbus2.SMBus(1)  # 0 = /dev/i2c-0 (port I2C0), 1 = /dev/i2c-1 (port I2C1)
 
 v_old = readVoltage(bus)
 v_current = v_old
