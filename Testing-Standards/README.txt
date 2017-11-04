@@ -1,1 +1,1 @@
-These are our testing standards
+This folder contains testing standards
