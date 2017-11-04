@@ -16,6 +16,8 @@ Below is a good example of what it should look like.
  	
 > sudo nano /etc/dhcp/dhcpd.conf
 
+authoritative;
+
 DHCPDARGS=wlan0;<br />
 default-lease-time 600;<br />
 max-lease-time 7200;<br />
@@ -23,7 +25,7 @@ max-lease-time 7200;<br />
 option subnet-mask 255.255.255.0;<br />
 option broadcast-address 10.0.0.255;<br />
 option domain-name "RPi-network";<br />
-option routers 10.0.0.1; #default gateway<br />
+option routers 10.0.0.200; #default gateway (ip of router)<br />
  
 subnet 10.0.0.0 netmask 255.255.255.0 { <br />
     range 10.0.0.2 10.0.0.10; <br />
