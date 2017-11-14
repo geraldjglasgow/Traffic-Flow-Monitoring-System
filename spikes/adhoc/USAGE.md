@@ -8,10 +8,10 @@ will persist as long as the client is connected.
 This will also require the computer has a manual ip address set to talk with the rpi over adhoc.
 below is the command to set an ip and netmask
 
-To check the current IP use:
-> sudo ifconfig <interface> down
-> sudo iwconfig <interface> mode ad-hoc
-> sudo ifconfig <interface> 10.0.0.200 netmask 255.255.255.0
-> sudo ifconfig <interface> up
+To check the current IP use:</br>
+> sudo ifconfig <interface> down</br>
+> sudo iwconfig <interface> mode ad-hoc</br>
+> sudo ifconfig <interface> 10.0.0.200 netmask 255.255.255.0</br>
+> sudo ifconfig <interface> up</br>
 
 The interface for integrated wireless cards will be en0 for mac and wlan0 for linux.
